@@ -7,6 +7,6 @@ const rootElement = document.getElementById("root");
 if (rootElement) {
   hydrateRoot(
     rootElement,   
-      <App />
+    <App />
   );
 }
