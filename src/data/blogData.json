@@ -1,1 +1,50 @@
-[{"id": 1, "title": "Getting Started with React and TypeScript", "slug": "getting-started-react-typescript", "excerpt": "Learn how to set up a React project with TypeScript and best practices for type safety.", "content": "React and TypeScript make a powerful combination for building robust web applications. In this post, we'll explore how to set up a new project and leverage TypeScript's type system to catch errors early.", "date": "2024-01-15", "author": "Sumit Mitra", "tags": ["React", "TypeScript", "Frontend"], "readTime": "5 min read"}, {"id": 2, "title": "Building Scalable Microservices", "slug": "building-scalable-microservices", "excerpt": "Explore best practices for designing and implementing microservices that can scale with your business needs.", "content": "Microservices architecture has become the go-to approach for building scalable applications. This article covers key patterns and practices for successful microservice implementation.", "date": "2024-01-10", "author": "Sumit Mitra", "tags": ["Architecture", "Microservices", "Backend"], "readTime": "8 min read"}, {"id": 3, "title": "Modern CSS Techniques", "slug": "modern-css-techniques", "excerpt": "Discover the latest CSS features and techniques that will make your styling more efficient and maintainable.", "content": "CSS has evolved significantly with new features like Grid, Flexbox, and CSS Variables. Learn how to use these modern techniques to create beautiful, responsive designs.", "date": "2024-01-05", "author": "Sumit Mitra", "tags": ["CSS", "Frontend", "Design"], "readTime": "6 min read"}]
+[
+    {
+        "id": 1,
+        "title": "Getting Started with React and TypeScript",
+        "slug": "getting-started-react-typescript",
+        "excerpt": "Learn how to set up a React project with TypeScript and best practices for type safety.",
+        "summary": "This comprehensive guide covers setting up a React + TypeScript project from scratch, including configuration, type definitions, and common patterns for building type-safe applications.",
+        "content": "React and TypeScript make a powerful combination for building robust web applications. In this post, we'll explore how to set up a new project and leverage TypeScript's type system to catch errors early.",
+        "date": "2024-01-15",
+        "author": "Sumit Mitra",
+        "tags": [
+            "React",
+            "TypeScript",
+            "Frontend"
+        ],
+        "readTime": "5 min read"
+    },
+    {
+        "id": 2,
+        "title": "Building Scalable Microservices",
+        "slug": "building-scalable-microservices",
+        "excerpt": "Explore best practices for designing and implementing microservices that can scale with your business needs.",
+        "summary": "Deep dive into microservices architecture patterns, including service discovery, load balancing, data management, and deployment strategies for production-ready systems.",
+        "content": "Microservices architecture has become the go-to approach for building scalable applications. This article covers key patterns and practices for successful microservice implementation.",
+        "date": "2024-01-10",
+        "author": "Sumit Mitra",
+        "tags": [
+            "Architecture",
+            "Microservices",
+            "Backend"
+        ],
+        "readTime": "8 min read"
+    },
+    {
+        "id": 3,
+        "title": "Modern CSS Techniques",
+        "slug": "modern-css-techniques",
+        "excerpt": "Discover the latest CSS features and techniques that will make your styling more efficient and maintainable.",
+        "summary": "Master modern CSS with Grid, Flexbox, CSS Variables, and new layout techniques. Learn how to create responsive, maintainable stylesheets using the latest CSS specifications.",
+        "content": "CSS has evolved significantly with new features like Grid, Flexbox, and CSS Variables. Learn how to use these modern techniques to create beautiful, responsive designs.",
+        "date": "2024-01-05",
+        "author": "Sumit Mitra",
+        "tags": [
+            "CSS",
+            "Frontend",
+            "Design"
+        ],
+        "readTime": "6 min read"
+    }
+]

@@ -8,6 +8,7 @@ interface BlogPost {
   title: string;
   slug: string;
   excerpt: string;
+  summary: string;
   content: string;
   date: string;
   author: string;
@@ -94,9 +95,17 @@ const BlogPost = () => {
                 </div>
               </header>
               
-              <div className="glass-card rounded-xl p-8 fade-in">
-                <div className="prose prose-lg max-w-none text-muted-foreground leading-relaxed">
-                  {post.content}
+              <div className="space-y-6 fade-in">
+                <div className="glass-card rounded-xl p-8 fade-in">
+                  <h3 className="text-xl font-heading font-semibold mb-3 text-primary">Summary</h3>
+                  <p className="text-muted-foreground leading-relaxed">{post.summary}</p>
+                </div>
+                
+                <div className="glass-card rounded-xl p-8 fade-in">
+                  <h3 className="text-xl font-heading font-semibold mb-3 text-primary">Content</h3>
+                  <div className="prose prose-lg max-w-none text-muted-foreground leading-relaxed">
+                    {post.content}
+                  </div>
                 </div>
               </div>
 

@@ -4,7 +4,6 @@ import path from 'path'
 import { componentTagger } from 'lovable-tagger'
 
 const base = '/sumit-mitra/' 
- 
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
@@ -21,4 +20,12 @@ export default defineConfig(({ mode }) => ({
 			'@': path.resolve(__dirname, './src'),
 		},
 	},
+	build: {
+		rollupOptions: {
+			external: ['fsevents', 'fs', 'path', 'crypto', 'util', 'tty', 'string_decoder']
+		}
+	},
+	ssr: {
+		noExternal: ['react-dom']
+	}
 }))

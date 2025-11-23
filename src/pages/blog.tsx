@@ -8,6 +8,7 @@ interface BlogPost {
   title: string;
   slug: string;
   excerpt: string;
+  summary: string;
   content: string;
   date: string;
   author: string;

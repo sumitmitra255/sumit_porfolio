@@ -1,5 +1,12 @@
-import { createRoot } from "react-dom/client";
+import { hydrateRoot } from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
 
-createRoot(document.getElementById("root")!).render(<App />);
+// Check if we're in a browser environment
+const rootElement = document.getElementById("root");
+if (rootElement) {
+  hydrateRoot(
+    rootElement,   
+      <App />
+  );
+}
