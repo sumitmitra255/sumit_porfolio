@@ -1,4 +1,5 @@
 import { hydrateRoot } from "react-dom/client";
+import { StrictMode } from "react";
 import App from "./App.tsx";
 import "./index.css";
 
@@ -6,7 +7,9 @@ import "./index.css";
 const rootElement = document.getElementById("root");
 if (rootElement) {
   hydrateRoot(
-    rootElement,   
-    <App />
+    rootElement,
+    <StrictMode>
+      <App />
+    </StrictMode>
   );
 }
